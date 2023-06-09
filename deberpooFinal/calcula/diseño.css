@@ -1,0 +1,93 @@
+.calculadora-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #717D7E ;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.calculadora-pantalla {
+    grid-column: 1 / span 4;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #ccc;
+    font-size: 28px;
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.calculadora-btn {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+
+.calculadora-btn:hover {
+    background-color: #388e3c;
+}
+
+.calculadora-btn-igual {
+    background-color: #4caf50;
+}
+
+.calculadora-btn-igual:hover {
+    background-color: #388e3c;
+}
+
+.calculadora-btn-cero {
+    grid-column: span 2;
+}
+
+.calculadora-btn-borrar {
+    background-color: #f44336;
+}
+
+.calculadora-btn-borrar:hover {
+    background-color: #e53935;
+}
+
+.calculadora-btn-divisores {
+    background-color: #4caf50;
+}
+
+.calculadora-btn-divisores:hover {
+    background-color: #388e3c;
+}
+
+.calculadora-btn-division-entera {
+    background-color: #4caf50;
+}
+
+.calculadora-btn-division-entera:hover {
+    background-color: #388e3c;
+}
+
+.calculadora-btn-raiz {
+    background-color: #4caf50;
+}
+
+.calculadora-btn-raiz:hover {
+    background-color: #388e3c;
+}
+
+.calculadora-btn-factorial {
+    background-color: #4caf50;
+}
+
+.calculadora-btn-factorial:hover {
+    background-color: #388e3c;
+}

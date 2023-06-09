@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./j.css">
+  <title>Juego de Piedra, Papel o Tijera</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="titulo">Juego de Piedra, Papel o Tijera</h1>
+    <div class="juego">
+      <div class="eleccion">
+        <h2>Tu elección:</h2>
+        <div class="armas">
+          <button class="arma" id="Piedra">Piedra</button>
+          <button class="arma" id="Papel">Papel</button>
+          <button class="arma" id="Tijera">Tijera</button>
+        </div>
+      </div>
+      <div class="eleccion">
+        <h2>PC eligió:</h2>
+        <div id="eleccion-pc" class="eleccion-pc"></div>
+      </div>
+    </div>
+    <div id="resultado" class="resultado"></div>
+    <div class="puntos">
+      <div class="puntos-jugador">
+        <h3>Tus Puntos:</h3>
+        <span id="jugador">0</span>
+      </div>
+      <div class="puntos-pc">
+        <h3>Puntos de la PC:</h3>
+        <span id="Pc">0</span>
+      </div>
+    </div>
+    <div class="botones">
+      <button id="btn-inicio" class="btn">Inicio</button>
+      <button id="reiniciar" class="btn disable">Reiniciar</button>
+      <button id="btn-salir" class="btn disable">Salir</button>
+    </div>
+    <div class="mensaje disable">
+      <h2 id="gana-punto"></h2>
+      <p id="mensaje-resultado"></p>
+    </div>
+    <div class="estadisticas">
+      <h3>Estadísticas:</h3>
+      <p id="estadisticas-jugador"></p>
+      <p id="estadisticas-pc"></p>
+    </div>
+    <div class="estadisticas">
+        <!-- <h3>Estadísticas</h3>
+        <p>Jugador: <span id="estadisticas-jugador">0</span> victorias</p>
+        <p>PC: <span id="estadisticas-pc">0</span> victorias</p> -->
+        <button id="btn-reiniciar-estadisticas">Reiniciar estadísticas</button>
+      </div>
+      
+  </div>
+  <script src="./j.js"></script>
+</body>
+
+</html>
